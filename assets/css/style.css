@@ -24,3 +24,15 @@ h1, h2, h3 {
   color: var(--highlight);
 }
 
+/* navbar styling */
+#navbar {
+  background-color: var(--primary-color);
+}
+
+.active {
+  color: #7a9fc2;
+  
+}
+#navbar .logo {
+  width: 35px;
+}
