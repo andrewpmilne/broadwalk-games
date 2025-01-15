@@ -18,10 +18,16 @@ body {
 h1, h2, h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
+  text-transform: uppercase;
 }
 
 .sub-heading-color {
   color: var(--highlight);
+}
+
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* navbar styling */
@@ -36,4 +42,8 @@ h1, h2, h3 {
 }
 #navbar .logo {
   width: 35px;
+}
+
+#header .lead {
+  font-family: var(--secondary-font);
 }
