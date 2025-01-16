@@ -18,6 +18,9 @@ body {
 h1, h2, h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
+  }
+
+h1, h2 {
   text-transform: uppercase;
 }
 
@@ -46,4 +49,40 @@ h1, h2, h3 {
 
 #header .lead {
   font-family: var(--secondary-font);
+}
+
+/* services styling */
+#services .card-footer {
+  font-weight: bold;
+  color: var(--highlight);
+  background-color: translucent;
+}
+
+/* media query (tablets) */
+@media screen and (min-width: 768px)  {
+  #services .card-body {
+    min-height: 191px;
+
+  }
+}
+
+/* media query (large) */
+@media screen and (min-width: 992px)  {
+  #services .card-body {
+    min-height: 145px;
+  }
+}
+
+/* media query (x large) */
+@media screen and (min-width: 1200px)  {
+  #services .card-body {
+    min-height: 215px;
+  }
+}
+
+/* media query (xx large) */
+@media screen and (min-width: 1400px)  {
+  #services .card-body {
+    min-height: 193;
+  }
 }
