@@ -24,6 +24,10 @@ h1, h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  color: var(--highlight);
+}
+
 .sub-heading-color {
   color: var(--highlight);
 }
@@ -56,6 +60,13 @@ h1, h2 {
   font-weight: bold;
   color: var(--highlight);
   background-color: translucent;
+}
+
+/* New Games Section */
+#new-games-section div {
+  padding: 3px;
+  border: none;
+  margin-top: 18px;
 }
 
 /* media query (tablets) */
